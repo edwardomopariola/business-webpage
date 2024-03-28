@@ -9,52 +9,68 @@
 }
 
 .navbar-brand {
-    margin-left: 35px;
+    margin-left: 100px;
 }
+
+.navbar-nav {
+    margin-left: 60em;
+} 
 
 .nav-link {
     color: red;
-    margin-right: 30px;
+    margin-left: 0em;
 }
 
 .header-content {
+    height: 100vh;
+    width: 100vw;
     position: relative;
     text-align: center;
-    width: 100%;
 }
 
-.header-content h1 {
+.header-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text-content {
     position: absolute;
-    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text-content h1 {
+    font-size: 60px;
+}
+
+.header-text-content p {
+    font-size: 20px;
+}
+
+/* .header-content h1 {
+    position: absolute;
     width: 100%;
     text-align: center;
     top: 30%;
     font-size: 50px;
     line-height: 7px;
-}
+} */
 
-.header-content p{
+/* .header-content p{
     position: absolute;
     width: 100%;
     text-align: center;
     top: 45%;
     font-size: 30px ;
     line-height: 1px;
-}
-
-.btn-lg{
-    display: inline-block;
-    position: absolute;
-    width: 10%;
-    top: 50%;
-    font-size: 15px;
-    text-align: center;
-}
+} */
 
 .intro {
     background-color: yellowgreen;
     height: 100%;
-    width: 100%;
+    width: auto;
     padding: 100px;
     text-align: center;   
 }
@@ -127,45 +143,40 @@
     margin-right: auto;
 }
 
-.content-3 {
-    width: 100%;
-    height: 50%;
-}
-
-
-.content-3 h3 {
-    position: absolute;
-    top: 72em;
-    font-size: 30px ;
-    line-height: 1px;
-    color: white;
-    margin-inline-start: 5em;
-    display: inline-block;
-}
-
-/* .content-3 img{  */
-    width: 33.3333333em;
-    height: 10em;
-    display: block;
-} 
-
-.col-sm-4 {
-    width: 100px;
+.col-sm-4:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 
 .col-sm-4 img {
-    display: block;
-    width: 33.3333333em;
+    width: 33.333333em;
     height: 10em;
-    transform: scale(1.1);
-   -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
+    opacity: 0.5;
+    background-size: cover;
+    background-position: 50%, 50%;
 }
 
-.col-sm-4:hover {
-    transform: scale(1.1);
-    border: 3px solid black;
+.image-text {
+    position: absolute;
+    top: 140em;
+    transform: translate(-50%, -50%);
+    margin-inline-start: 15em;
+    display: inline-block;
 }
+
+.container-fluid {
+    padding: 0px;
+}
+/* .col-sm-4 h3 {
+    position: absolute;
+    top: 73em;
+    font-size: 30px ;
+    line-height: 1px;
+    color: rgb(235, 20, 20);
+    margin-inline-start: 5em;
+    display: inline-block;
+} */
 
 .content-4 {
     width: 100%;
