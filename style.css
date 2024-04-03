@@ -6,10 +6,11 @@ header{
     background-position: center;
     background-size: cover;
     text-align: center;
+    /* height: 100vh;
+    width: 100vw; */
 }
 
 .header-content {
-    position: relative;
     width: 100%;
     padding: 100px 15px 70px;
     text-align: center;
@@ -45,6 +46,11 @@ header{
    background-color: red;
 }
 
+.rounded-circle {
+   width: 15em;
+   height: 15em;
+}
+
 .content-2 {
     padding: 100px;
     background-color: purple;
@@ -61,6 +67,7 @@ header{
 .col-sm-4 h3 {
     margin-block-start: 2em;
     margin-block-end: 2em;
+    color: white;
 }
 
 .col-sm-4:hover {
@@ -83,7 +90,6 @@ header{
 
 .content-4 {
     background-color: purple;
-    height: 100%;
     width: auto;
     padding: 50px;
     text-align: center;   
