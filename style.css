@@ -6,8 +6,6 @@ header{
     background-position: center;
     background-size: cover;
     text-align: center;
-    /* height: 100vh;
-    width: 100vw; */
 }
 
 .header-content {
@@ -46,15 +44,20 @@ header{
    background-color: red;
 }
 
-.rounded-circle {
+.content-1 img {
    width: 15em;
-   height: 15em;
+   height: 7em;
 }
 
 .content-2 {
     padding: 100px;
     background-color: purple;
 }
+
+.content-2 img {
+    width: 15em;
+    height: 7em;
+ }
 
 .item-1, .item-2, .item-3 {
     background-size: cover;
